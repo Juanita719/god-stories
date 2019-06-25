@@ -1,0 +1,14 @@
+<?php get_header(); ?>
+h1>God Stories</h1>
+<h3>Read....Connect...Share!</h3>
+
+
+<div class="fullscreen-bg">
+    <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <source src="images/rain.mp4" type="video/mp4">
+    </video>
+</div>
+
+<?php endwhile; ?>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

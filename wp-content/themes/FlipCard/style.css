@@ -1,0 +1,664 @@
+/*
+Theme Name: Flip Card
+Theme URI:
+Author: Howard Rutledge
+Author URI:
+Description: Test of converting html / css into a custom WordPress Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain:
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+color:white;
+	
+}
+
+.header{background-color: rgba(0,0,0,0.0);
+  position: absolute;
+  top: 0;
+  left: 0;
+bottom:0;
+ max-width: 100%;
+margin:0px;
+padding: 10px;
+padding-bottom: 100px;
+text-align:center;}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+	
+
+}
+
+
+.fullscreen-bg__video {
+    position: absolute;
+    background-size: contain;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+
+
+.flip-box {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+}
+
+.flip-box:hover .flip-box-inner  {
+  transform: rotateY(180deg);
+
+
+}
+
+.flip-box-front, .flip-box-back {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+
+}
+
+.flip-box-back:hover{
+
+}
+
+.flip-box-front {
+  background-color: red;
+  background-image: url("http://www.ourgodstories.com/wp-content/uploads/2018/12/Book-Bible-Image.jpg");
+  background-size: contain;
+  text-align: center;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+
+}
+
+/*flipbox 2*/
+.flip-box2 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box2:hover .flip-box-inner2 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front2, .flip-box-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front2 {
+  background-color: white ;
+  background-image: url("images/26.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back2 {
+  background-color: #B5A642;
+  color: white;
+  transform: rotateY(180deg);
+}
+/*flipbox 3*/
+.flip-box3 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box3:hover .flip-box-inner3 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front3, .flip-box-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front3 {
+  background-color: #c0c0c0;
+  background-image: url("images/23.jpg");
+  background-size: contain;
+  text-align: center;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back3 {
+  background-color: #c4c7ce;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*flipbox 4*/
+.flip-box4 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner4 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box4:hover .flip-box-inner4 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front4, .flip-box-back4 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front4 {
+  background-color: #c0c0c0;
+  background-image: url("images/32.jpg");
+  background-size: contain;
+  text-align: center;
+    color: white;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back4 {
+  background-color: #D4AF37;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*flipbox 5*/
+.flip-box5 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box5:hover .flip-box-inner5 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front5, .flip-box-back5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front5 {
+  background-color: #c0c0c0;
+  background-image: url("images/27.jpg");
+  background-size: contain;
+  text-align: center;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back5 {
+  background-color: #E5E4E2;
+  color: black;
+  transform: rotateY(180deg);
+}
+
+/*flipbox 6*/
+.flip-box6 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner6 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box6:hover .flip-box-inner6 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front6, .flip-box-back6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front6 {
+  background-color: #c0c0c0;
+  background-image: url("images/1.jpg");
+  background-size: contain;
+  text-align: center;
+    color: white;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back6 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*flipbox 7*/
+.flip-box7 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner7 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box7:hover .flip-box-inner7 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front7, .flip-box-back7 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front7 {
+  background-color: #c0c0c0;
+  background-image: url("images/11.jpg");
+  background-size: contain;
+  text-align: center;
+    color: white;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back7 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*flipbox 8*/
+.flip-box8 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner8 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box8:hover .flip-box-inner8 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front8, .flip-box-back8 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front8 {
+  background-color: #c0c0c0;
+  background-image: url("images/14.jpg");
+  background-size: contain;
+  text-align: center;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back8 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*flipbox 9*/
+.flip-box9 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner9 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box9:hover .flip-box-inner9 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front9, .flip-box-back9 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front9 {
+  background-color: #c0c0c0;
+  background-image: url("images/19.jpg");
+  background-size: contain;
+  text-align: center;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back9 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*flipbox 10*/
+.flip-box10 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner10 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box10:hover .flip-box-inner10 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front10, .flip-box-back10 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front10 {
+  background-color: #c0c0c0;
+  background-image: url("images/29.jpg");
+  background-size: contain;
+  text-align: center;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back10 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*flipbox 11*/
+.flip-box11 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner11{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box11:hover .flip-box-inner11 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front11, .flip-box-back11 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front11 {
+  background-color: #c0c0c0;
+  background-image: url("http://www.ourgodstories.com/wp-content/uploads/2018/12/Kids.jpg");
+  background-size: contain;
+
+  text-align: center;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back11 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*flipbox 12*/
+.flip-box12 {
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin:10px;
+  box-shadow: 10px 10px 12px rgba(0,0,0,1);
+
+}
+
+.flip-box-inner12{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box12:hover .flip-box-inner12 {
+  transform: rotateY(180deg);
+
+}
+
+.flip-box-front12, .flip-box-back12 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front12 {
+  background-color: #c0c0c0;
+  background-image: url("https://kingdomdomaintransfer.com/kingdomprime/wp-content/uploads/2018/12/4-e1544206993989.jpg");
+  background-size: contain;
+  text-align: center;
+    color: black;
+    margin:0;
+    padding:0;
+}
+
+.flip-box-back12 {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Style the video: 100% width and height to cover the entire window */

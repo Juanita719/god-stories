@@ -1,0 +1,336 @@
+# Copyright (C) 2018 IndoTimeline
+# This file is distributed under the same license as the IndoTimeline package.
+msgid ""
+msgstr ""
+"Project-Id-Version: IndoTimeline\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:25, build/1.0.2/indotimeline/404.php:25, build/1.0.5/indotimeline/404.php:25, build/1.0.6/indotimeline/404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:28, build/1.0.2/indotimeline/404.php:28, build/1.0.5/indotimeline/404.php:28, build/1.0.6/indotimeline/404.php:28
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:49, build/1.0.2/indotimeline/404.php:49, build/1.0.5/indotimeline/404.php:49, build/1.0.6/indotimeline/404.php:49
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:66, build/1.0.2/indotimeline/404.php:66, build/1.0.5/indotimeline/404.php:66, build/1.0.6/indotimeline/404.php:66
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:35, build/1.0.2/indotimeline/comments.php:35, build/1.0.5/indotimeline/comments.php:35, build/1.0.6/indotimeline/comments.php:35
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:41, build/1.0.2/indotimeline/comments.php:41, build/1.0.5/indotimeline/comments.php:41, build/1.0.6/indotimeline/comments.php:41
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:67, build/1.0.2/indotimeline/comments.php:67, build/1.0.5/indotimeline/comments.php:67, build/1.0.6/indotimeline/comments.php:67
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:20, build/1.0.5/indotimeline/footer.php:20, build/1.0.6/indotimeline/footer.php:20
+msgid "Proudly powered by"
+msgstr ""
+
+#: footer.php:21, build/1.0.2/indotimeline/sidebar.php:27, build/1.0.5/indotimeline/footer.php:21, build/1.0.6/indotimeline/footer.php:21
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:22, build/1.0.5/indotimeline/footer.php:22, build/1.0.6/indotimeline/footer.php:22
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:27, build/1.0.2/indotimeline/sidebar.php:36, build/1.0.5/indotimeline/footer.php:27, build/1.0.6/indotimeline/footer.php:27
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:50, build/1.0.2/indotimeline/functions.php:50, build/1.0.5/indotimeline/functions.php:50, build/1.0.6/indotimeline/functions.php:50
+msgid "Primary"
+msgstr ""
+
+#: functions.php:144, build/1.0.5/indotimeline/functions.php:144, build/1.0.6/indotimeline/functions.php:144
+msgid "Sidebar Fixed"
+msgstr ""
+
+#: functions.php:146, build/1.0.5/indotimeline/functions.php:146, build/1.0.6/indotimeline/functions.php:146
+msgid "Add widgets sidebar Fixed here."
+msgstr ""
+
+#: functions.php:153, build/1.0.5/indotimeline/functions.php:153, build/1.0.6/indotimeline/functions.php:153
+msgid "Sidebar Content"
+msgstr ""
+
+#: functions.php:155, build/1.0.5/indotimeline/functions.php:155, build/1.0.6/indotimeline/functions.php:155
+msgid "Add widgets sidebar content here. Go to Customizer, Then General Settings to activated."
+msgstr ""
+
+#: functions.php:162, build/1.0.5/indotimeline/functions.php:162, build/1.0.6/indotimeline/functions.php:162
+msgid "Footer Widget"
+msgstr ""
+
+#: functions.php:164, build/1.0.5/indotimeline/functions.php:164, build/1.0.6/indotimeline/functions.php:164
+msgid "Add widgets Footer content here."
+msgstr ""
+
+#: header.php:25, build/1.0.2/indotimeline/header.php:25, build/1.0.5/indotimeline/header.php:25, build/1.0.6/indotimeline/header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:134, build/1.0.2/indotimeline/header.php:128, build/1.0.5/indotimeline/header.php:134, build/1.0.6/indotimeline/header.php:134
+msgid "Primary Menu"
+msgstr ""
+
+#: search.php:26, build/1.0.2/indotimeline/search.php:24, build/1.0.5/indotimeline/search.php:26, build/1.0.6/indotimeline/search.php:26
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/template-tags.php:29, build/1.0.2/indotimeline/inc/template-tags.php:29, build/1.0.5/indotimeline/inc/template-tags.php:29, build/1.0.6/indotimeline/inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:50, build/1.0.2/indotimeline/inc/template-tags.php:50, build/1.0.5/indotimeline/inc/template-tags.php:50, build/1.0.6/indotimeline/inc/template-tags.php:50
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:71, build/1.0.2/indotimeline/inc/template-tags.php:71, build/1.0.5/indotimeline/inc/template-tags.php:71, build/1.0.6/indotimeline/inc/template-tags.php:71
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:74, build/1.0.2/indotimeline/inc/template-tags.php:74, build/1.0.5/indotimeline/inc/template-tags.php:74, build/1.0.6/indotimeline/inc/template-tags.php:74
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:78, build/1.0.2/indotimeline/inc/template-tags.php:78, build/1.0.5/indotimeline/inc/template-tags.php:78, build/1.0.6/indotimeline/inc/template-tags.php:78
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:81, build/1.0.2/indotimeline/inc/template-tags.php:81, build/1.0.5/indotimeline/inc/template-tags.php:81, build/1.0.6/indotimeline/inc/template-tags.php:81
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:91, build/1.0.2/indotimeline/inc/template-tags.php:91, build/1.0.5/indotimeline/inc/template-tags.php:91, build/1.0.6/indotimeline/inc/template-tags.php:91
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:108, template-parts/content-page.php:54, build/1.0.2/indotimeline/inc/template-tags.php:108, build/1.0.2/indotimeline/template-parts/content-page.php:54, build/1.0.5/indotimeline/inc/template-tags.php:108, build/1.0.5/indotimeline/template-parts/content-page.php:54, build/1.0.6/indotimeline/inc/template-tags.php:108, build/1.0.6/indotimeline/template-parts/content-page.php:54
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:17, build/1.0.2/indotimeline/template-parts/content-none.php:17, build/1.0.5/indotimeline/template-parts/content-none.php:17, build/1.0.6/indotimeline/template-parts/content-none.php:17
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:27, build/1.0.2/indotimeline/template-parts/content-none.php:27, build/1.0.5/indotimeline/template-parts/content-none.php:27, build/1.0.6/indotimeline/template-parts/content-none.php:27
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:40, build/1.0.2/indotimeline/template-parts/content-none.php:40, build/1.0.5/indotimeline/template-parts/content-none.php:40, build/1.0.6/indotimeline/template-parts/content-none.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:47, build/1.0.2/indotimeline/template-parts/content-none.php:47, build/1.0.5/indotimeline/template-parts/content-none.php:47, build/1.0.6/indotimeline/template-parts/content-none.php:47
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:40, template-parts/content-single.php:65, template-parts/content.php:69, template-parts/pro/content-photos.php:69, build/1.0.2/indotimeline/template-parts/content-page.php:40, build/1.0.2/indotimeline/template-parts/content-single.php:65, build/1.0.2/indotimeline/template-parts/content.php:69, build/1.0.5/indotimeline/template-parts/content-page.php:40, build/1.0.5/indotimeline/template-parts/content-single.php:65, build/1.0.5/indotimeline/template-parts/content.php:69, build/1.0.6/indotimeline/template-parts/content-page.php:40, build/1.0.6/indotimeline/template-parts/content-single.php:65, build/1.0.6/indotimeline/template-parts/content.php:69
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:53, template-parts/content.php:56, template-parts/pro/content-photos.php:56, build/1.0.2/indotimeline/template-parts/content-single.php:53, build/1.0.2/indotimeline/template-parts/content.php:56, build/1.0.5/indotimeline/template-parts/content-single.php:53, build/1.0.5/indotimeline/template-parts/content.php:56, build/1.0.6/indotimeline/template-parts/content-single.php:53, build/1.0.6/indotimeline/template-parts/content.php:56
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: templates/timeline-photos.php:3
+msgid "Timeline Photos"
+msgstr ""
+
+#: templates/timeline-portfolio.php:3
+msgid "Timeline Portfolio"
+msgstr ""
+
+#: inc/customizer/customizer.php:294, build/1.0.5/indotimeline/inc/customizer/customizer.php:294, build/1.0.6/indotimeline/inc/customizer/customizer.php:294
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:300, build/1.0.5/indotimeline/inc/customizer/customizer.php:300, build/1.0.6/indotimeline/inc/customizer/customizer.php:300
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/customizer.php:301, build/1.0.5/indotimeline/inc/customizer/customizer.php:301, build/1.0.6/indotimeline/inc/customizer/customizer.php:301
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer/customizer.php:305, build/1.0.5/indotimeline/inc/customizer/customizer.php:305, build/1.0.6/indotimeline/inc/customizer/customizer.php:305
+msgid "Header Display"
+msgstr ""
+
+#: inc/customizer/customizer.php:315, inc/customizer/customizer.php:326, inc/customizer/customizer.php:373, build/1.0.2/indotimeline/inc/customizer/customizer.php:323, build/1.0.5/indotimeline/inc/customizer/customizer.php:315, build/1.0.5/indotimeline/inc/customizer/customizer.php:326, build/1.0.5/indotimeline/inc/customizer/customizer.php:373, build/1.0.6/indotimeline/inc/customizer/customizer.php:315, build/1.0.6/indotimeline/inc/customizer/customizer.php:326, build/1.0.6/indotimeline/inc/customizer/customizer.php:373
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/customizer.php:316, build/1.0.5/indotimeline/inc/customizer/customizer.php:316, build/1.0.6/indotimeline/inc/customizer/customizer.php:316
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/customizer.php:317, build/1.0.5/indotimeline/inc/customizer/customizer.php:317, build/1.0.6/indotimeline/inc/customizer/customizer.php:317
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/customizer.php:327, build/1.0.5/indotimeline/inc/customizer/customizer.php:327, build/1.0.6/indotimeline/inc/customizer/customizer.php:327
+msgid "Display"
+msgstr ""
+
+#: inc/customizer/customizer.php:332, build/1.0.5/indotimeline/inc/customizer/customizer.php:332, build/1.0.6/indotimeline/inc/customizer/customizer.php:332
+msgid "Enable Footer Widget"
+msgstr ""
+
+#: inc/customizer/customizer.php:334, build/1.0.5/indotimeline/inc/customizer/customizer.php:334, build/1.0.6/indotimeline/inc/customizer/customizer.php:334
+msgid "Container Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:342, build/1.0.2/indotimeline/inc/customizer/customizer.php:292, build/1.0.5/indotimeline/inc/customizer/customizer.php:342, build/1.0.6/indotimeline/inc/customizer/customizer.php:342
+msgid "Timeline Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:349, build/1.0.2/indotimeline/inc/customizer/customizer.php:299, build/1.0.5/indotimeline/inc/customizer/customizer.php:349, build/1.0.6/indotimeline/inc/customizer/customizer.php:349
+msgid "Infinite Scroll"
+msgstr ""
+
+#: inc/customizer/customizer.php:350, build/1.0.2/indotimeline/inc/customizer/customizer.php:300, build/1.0.5/indotimeline/inc/customizer/customizer.php:350, build/1.0.6/indotimeline/inc/customizer/customizer.php:350
+msgid "By Click"
+msgstr ""
+
+#: inc/customizer/customizer.php:351, build/1.0.2/indotimeline/inc/customizer/customizer.php:301, build/1.0.5/indotimeline/inc/customizer/customizer.php:351, build/1.0.6/indotimeline/inc/customizer/customizer.php:351
+msgid "None"
+msgstr ""
+
+#: inc/customizer/customizer.php:355, build/1.0.2/indotimeline/inc/customizer/customizer.php:305, build/1.0.5/indotimeline/inc/customizer/customizer.php:355, build/1.0.6/indotimeline/inc/customizer/customizer.php:355
+msgid "Load More Type"
+msgstr ""
+
+#: inc/customizer/customizer.php:358, build/1.0.2/indotimeline/inc/customizer/customizer.php:308, build/1.0.5/indotimeline/inc/customizer/customizer.php:358, build/1.0.6/indotimeline/inc/customizer/customizer.php:358
+msgid "Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:359, build/1.0.2/indotimeline/inc/customizer/customizer.php:309, build/1.0.5/indotimeline/inc/customizer/customizer.php:359, build/1.0.6/indotimeline/inc/customizer/customizer.php:359
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/customizer.php:364, build/1.0.5/indotimeline/inc/customizer/customizer.php:364, build/1.0.6/indotimeline/inc/customizer/customizer.php:364
+msgid "Timeline Image Avatar"
+msgstr ""
+
+#: inc/customizer/customizer.php:367, build/1.0.2/indotimeline/inc/customizer/customizer.php:317, build/1.0.5/indotimeline/inc/customizer/customizer.php:367, build/1.0.6/indotimeline/inc/customizer/customizer.php:367
+msgid "Content Type"
+msgstr ""
+
+#: inc/customizer/customizer.php:371, build/1.0.2/indotimeline/inc/customizer/customizer.php:321, build/1.0.5/indotimeline/inc/customizer/customizer.php:371, build/1.0.6/indotimeline/inc/customizer/customizer.php:371
+msgid "Arrow"
+msgstr ""
+
+#: inc/customizer/customizer.php:372, build/1.0.2/indotimeline/inc/customizer/customizer.php:322, build/1.0.5/indotimeline/inc/customizer/customizer.php:372, build/1.0.6/indotimeline/inc/customizer/customizer.php:372
+msgid "Bullet"
+msgstr ""
+
+#: inc/customizer/customizer.php:378, build/1.0.2/indotimeline/inc/customizer/customizer.php:327, build/1.0.5/indotimeline/inc/customizer/customizer.php:378, build/1.0.6/indotimeline/inc/customizer/customizer.php:378
+msgid "Timeline Indicator"
+msgstr ""
+
+#: inc/customizer/customizer.php:378, build/1.0.6/indotimeline/inc/customizer/customizer.php:378
+msgid "Select timeline indicator"
+msgstr ""
+
+#: inc/customizer/customizer.php:382, build/1.0.2/indotimeline/inc/customizer/customizer.php:331, build/1.0.5/indotimeline/inc/customizer/customizer.php:382, build/1.0.6/indotimeline/inc/customizer/customizer.php:382
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/customizer.php:383, build/1.0.2/indotimeline/inc/customizer/customizer.php:332, build/1.0.5/indotimeline/inc/customizer/customizer.php:383, build/1.0.6/indotimeline/inc/customizer/customizer.php:383
+msgid "No"
+msgstr ""
+
+#: inc/customizer/customizer.php:387, build/1.0.5/indotimeline/inc/customizer/customizer.php:387, build/1.0.6/indotimeline/inc/customizer/customizer.php:387
+msgid "Enable Avatar"
+msgstr ""
+
+#: inc/customizer/customizer.php:390, build/1.0.5/indotimeline/inc/customizer/customizer.php:390, build/1.0.6/indotimeline/inc/customizer/customizer.php:390
+msgid "Enable Vertical Line"
+msgstr ""
+
+#: inc/customizer/customizer.php:394, build/1.0.5/indotimeline/inc/customizer/customizer.php:394, build/1.0.6/indotimeline/inc/customizer/customizer.php:394
+msgid "2 Columns"
+msgstr ""
+
+#: inc/customizer/customizer.php:395, build/1.0.5/indotimeline/inc/customizer/customizer.php:395, build/1.0.6/indotimeline/inc/customizer/customizer.php:395
+msgid "3 Columns"
+msgstr ""
+
+#: inc/customizer/customizer.php:396, build/1.0.5/indotimeline/inc/customizer/customizer.php:396, build/1.0.6/indotimeline/inc/customizer/customizer.php:396
+msgid "4 Columns"
+msgstr ""
+
+#: inc/customizer/customizer.php:449, build/1.0.2/indotimeline/inc/customizer/customizer.php:384, build/1.0.5/indotimeline/inc/customizer/customizer.php:449, build/1.0.6/indotimeline/inc/customizer/customizer.php:449
+msgid "Social Media Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:455, build/1.0.2/indotimeline/inc/customizer/customizer.php:390, build/1.0.5/indotimeline/inc/customizer/customizer.php:455, build/1.0.6/indotimeline/inc/customizer/customizer.php:455
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/customizer.php:458, build/1.0.2/indotimeline/inc/customizer/customizer.php:393, build/1.0.5/indotimeline/inc/customizer/customizer.php:458, build/1.0.6/indotimeline/inc/customizer/customizer.php:458
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/customizer.php:461, build/1.0.2/indotimeline/inc/customizer/customizer.php:396, build/1.0.5/indotimeline/inc/customizer/customizer.php:461, build/1.0.6/indotimeline/inc/customizer/customizer.php:461
+msgid "Linkedin"
+msgstr ""
+
+#: inc/customizer/customizer.php:464, build/1.0.2/indotimeline/inc/customizer/customizer.php:399, build/1.0.5/indotimeline/inc/customizer/customizer.php:464, build/1.0.6/indotimeline/inc/customizer/customizer.php:464
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer/customizer.php:467, build/1.0.2/indotimeline/inc/customizer/customizer.php:402, build/1.0.5/indotimeline/inc/customizer/customizer.php:467, build/1.0.6/indotimeline/inc/customizer/customizer.php:467
+msgid "Whatapp"
+msgstr ""
+
+#: build/1.0.2/indotimeline/functions.php:121
+msgid "Sidebar"
+msgstr ""
+
+#: build/1.0.2/indotimeline/functions.php:123
+msgid "Add widgets here."
+msgstr ""
+
+#: build/1.0.2/indotimeline/sidebar.php:30
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: build/1.0.2/indotimeline/inc/customizer/customizer.php:314
+msgid "Timeline Avatar"
+msgstr ""
+
+#: build/1.0.2/indotimeline/inc/customizer/customizer.php:336
+msgid "Display Vertical Line"
+msgstr ""
+
+#: build/1.0.5/indotimeline/inc/customizer/customizer.php:378
+msgstr ""
